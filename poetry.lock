@@ -576,7 +576,7 @@ description = "Lightweight FreeIPA client"
 name = "python-freeipa"
 optional = false
 python-versions = "*"
-version = "1.0.5"
+version = "1.0.6"
 
 [package.dependencies]
 requests = "*"
@@ -1092,8 +1092,8 @@ pytest-mock = [
     {file = "pytest_mock-2.0.0-py2.py3-none-any.whl", hash = "sha256:cb67402d87d5f53c579263d37971a164743dc33c159dfb4fb4a86f37c5552307"},
 ]
 python-freeipa = [
-    {file = "python-freeipa-1.0.5.tar.gz", hash = "sha256:fee5de37e745567e966634596f636f6142c40d189ce95b167b878c10c4602100"},
-    {file = "python_freeipa-1.0.5-py2.py3-none-any.whl", hash = "sha256:a85f6e60863c5b62bfacf1c9fa9f0f22d7c4a922e31a71c00c6edf311c47f4d7"},
+    {file = "python-freeipa-1.0.6.tar.gz", hash = "sha256:6125e36f6de2f0d2e3ee7eab3887407e2e6e84f25c45025a8276e7f61d1f1b13"},
+    {file = "python_freeipa-1.0.6-py2.py3-none-any.whl", hash = "sha256:c7145eba7b353d9d87e89c4ccf02960c000b4094b1dfadbe20628404ca878eed"},
 ]
 python-ldap = [
     {file = "python-ldap-3.2.0.tar.gz", hash = "sha256:7d1c4b15375a533564aad3d3deade789221e450052b21ebb9720fb822eccdb8e"},
@@ -1139,6 +1139,7 @@ regex = [
     {file = "regex-2020.5.7.tar.gz", hash = "sha256:73a10404867b835f1b8a64253e4621908f0d71150eb4e97ab2e7e441b53e9451"},
 ]
 requests = [
+    {file = "requests-2.23.0-py2.7.egg", hash = "sha256:5d2d0ffbb515f39417009a46c14256291061ac01ba8f875b90cad137de83beb4"},
     {file = "requests-2.23.0-py2.py3-none-any.whl", hash = "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee"},
     {file = "requests-2.23.0.tar.gz", hash = "sha256:b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"},
 ]
